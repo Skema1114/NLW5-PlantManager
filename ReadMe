@@ -1,8 +1,12 @@
 COMANDOS EMULADOR/APP:
 
-  expo init [name]
+  expo init [nome do projeto]
 
   expo start
+
+  json-server ./src/services/server.json --host [ip setado na api] --port [porta setada na api]
+
+  json-server ./src/services/server.json --host [ip setado na api] --port [porta setada na api] --delay [delay no carregamento]
 
 
 
@@ -20,6 +24,16 @@ COMANDOS DEPENDENCIAS:
 
   npm install @react-navigation/stack
 
+  npm install react-native-iphone-x-helper
+
+  npm install axios
+
+  npm install -g json-server
+
+  expo install react-native-svg
+
+  expo install lottie-react-native
+
 
 
 CODIGOS DOS DESAFIOS
@@ -27,3 +41,5 @@ CODIGOS DOS DESAFIOS
   #missaoespacial
 
   #embuscadoproximonivel
+
+  #astronautas

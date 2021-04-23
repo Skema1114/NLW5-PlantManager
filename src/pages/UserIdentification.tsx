@@ -47,6 +47,7 @@ export function UserIdentification() {
                   Como podemos {'\n'} chamar você?
                 </Text>
               </View>
+              
               <TextInput 
                 style={[styles.input, (isFocused || isFiled) && {borderColor: colors.green}]} 
                 placeholder="Digite um nome" 
