@@ -11,7 +11,7 @@ export function Welcome() {
   const navigation = useNavigation();
 
   function handleStart() {
-    navigation.navigate("UserIdentification");
+    navigation.navigate('UserIdentification');
   }
 
   return (
@@ -23,7 +23,7 @@ export function Welcome() {
           forma fácil
         </Text>
 
-        <Image source={wateringImg} style={styles.image} resizeMode="contain"/>
+        <Image source={wateringImg} style={styles.image} resizeMode='contain'/>
 
         <Text style={styles.subtitle}>
           Não esqueca mais de regar suas {'\n'} 
@@ -31,7 +31,7 @@ export function Welcome() {
         </Text>
 
         <TouchableOpacity style={styles.button} activeOpacity={0.7} onPress={handleStart}>
-          <Feather name="chevron-right" style={styles.buttonIcon}/>
+          <Feather name='chevron-right' style={styles.buttonIcon}/>
         </TouchableOpacity>
       </View>
     </SafeAreaView>
@@ -69,7 +69,7 @@ const styles = StyleSheet.create({
   },
 
   image: {
-    height: Dimensions.get("window").width * 0.7
+    height: Dimensions.get('window').width * 0.7
   },
 
   button: {
